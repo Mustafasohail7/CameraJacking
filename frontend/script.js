@@ -40,7 +40,7 @@ async function captureAndSendImage(videoElement) {
 
     try {
         // Send the image data to the backend server
-        const response = await fetch('http://localhost:3000/upload', {
+        const response = await fetch('http://localhost:3002/upload', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
